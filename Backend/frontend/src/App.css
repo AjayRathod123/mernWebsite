@@ -1,0 +1,431 @@
+/* Navbar css */
+
+.active {
+  color: black;
+  font-weight: bold;
+}
+.navbar-ajay {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+/* Home css */
+
+.home {
+  font-size: 62.5%;
+}
+
+.home-div {
+  height: 91vh;
+  background-color: rgb(243, 241, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-div p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.home-div h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* About css */
+
+.emp-profile {
+  box-shadow: 20px 20px 30px 10px rgb(180, 180, 180);
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.about-img {
+  margin: 20px;
+}
+
+.profile-head {
+  margin-top: 20px;
+}
+
+.profile-edit-btn {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.profile-edit-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.profile-work {
+  margin: 20px;
+}
+
+.profile-work a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Contact css */
+
+.full-contact {
+  height: 91vh;
+}
+.contact-content {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-phone {
+  box-shadow: 3px 3px 3px 3px rgb(180, 180, 180);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+}
+
+.contact-phone p {
+  border-bottom: 1px solid black;
+}
+.contact-email {
+  box-shadow: 3px 3px 3px 3px rgb(180, 180, 180);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+}
+.contact-email p {
+  border-bottom: 1px solid black;
+}
+.contact-address {
+  box-shadow: 3px 3px 3px 3px rgb(180, 180, 180);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+}
+.contact-address p {
+  border-bottom: 1px solid black;
+}
+
+.contact-form {
+  margin-top: 50px;
+}
+.contact-form-content {
+  border-radius: 30px;
+  box-shadow: 20px 20px 30px 10px rgb(180, 180, 180);
+}
+
+.contact-form-heading h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contact-input {
+  margin-top: 20px;
+}
+.contact-input input {
+  margin: 20px;
+}
+
+.contact-form-msg {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.contact-btn button {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  padding: 5px;
+}
+.contact-btn button:hover {
+  color: black;
+  background-color: white;
+}
+.dot {
+  color: white;
+}
+
+/* Login css */
+
+.login {
+  height: 91vh;
+  width: 100%;
+  background-color: rgb(243, 241, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-login {
+  border-radius: 20px;
+  background-color: white;
+  width: 30%;
+  height: 70vh;
+  box-shadow: 20px 20px 30px 10px rgb(180, 180, 180);
+}
+
+.main-login h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.main-login p {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.login-btn1 {
+  padding: 5px;
+  width: 90px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.login-btn1:hover {
+  background-color: white;
+  color: black;
+}
+
+.login-opt {
+  margin-top: 30px;
+}
+
+.login-link {
+  display: flex;
+  justify-content: center;
+}
+
+/* Registration css */
+
+.reg {
+  height: 91vh;
+  width: 100%;
+  background-color: rgb(243, 241, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-reg {
+  border-radius: 20px;
+  background-color: white;
+  width: 35%;
+  height: 70vh;
+  box-shadow: 20px 20px 30px 10px rgb(180, 180, 180);
+}
+
+.main-reg h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.h1-span {
+  margin-top: 22px;
+  border-bottom: 2px solid black;
+}
+
+.inp-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  font-size: 1.2rem;
+}
+
+.i-name {
+  border: none;
+  outline: none;
+}
+.i-email {
+  border: none;
+  outline: none;
+}
+.i-phone {
+  border: none;
+  outline: none;
+}
+.i-profession {
+  border: none;
+  outline: none;
+}
+.i-password {
+  border: none;
+  outline: none;
+}
+.i-cpassword {
+  border: none;
+  outline: none;
+}
+.inp-hr {
+  margin-top: 5px;
+}
+
+.reg-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.regi-btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 20px;
+  padding-bottom: 5px;
+  background-color: black;
+  color: white;
+}
+
+.regi-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Error page css */
+
+.main-err {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.err-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.err-body h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.err-home {
+  margin-top: 30px;
+}
+
+.err-navlink {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* Responsive using Media Queries */
+
+/* Home css */
+
+@media (max-width: 430px) {
+  .home-div h1 {
+    font-size: 1.2rem;
+  }
+}
+
+/* About css */
+
+@media (max-width: 330px) {
+  .about-img img {
+    width: 170px;
+  }
+}
+
+/* Contact css */
+
+@media (max-width: 990px) {
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1600px) {
+  .contact-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .contact-input {
+    width: 70%;
+  }
+  .contact-input input {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-form {
+    width: 100%;
+  }
+  .contact-form-heading h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-content {
+    max-width: 200%;
+  }
+}
+
+/* Login css */
+
+@media (max-width: 2000px) {
+  .main-login {
+    width: 50%;
+  }
+}
+
+@media (max-width: 990px) {
+  .main-login {
+    width: 50%;
+  }
+}
+@media (max-width: 570px) {
+  .main-login {
+    width: 80%;
+  }
+}
+
+/* Registration css */
+
+@media (max-width: 700px) {
+  .main-reg {
+    width: 80%;
+  }
+}
